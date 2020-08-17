@@ -9,7 +9,6 @@ steps:
     deviceName: 'Galaxy*'
     devicePlatformVersion: *
     devicePlatformName: Android
-    rootDirectory: src/main/java/kobiton/com/testng
     commands: 'mvn test'
     logType: combined
     terminateOnFailedJob: true
